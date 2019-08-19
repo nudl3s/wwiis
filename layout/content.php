@@ -6,7 +6,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.php?p=search">Search Data <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="index.php?p=search">Search Data<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="index.php?p=import">Create Quote</a>
             </div>
         </div>
     </nav>

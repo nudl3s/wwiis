@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10ab170-c805-44ec-8f86-f4601ebb9cdf" name="Default Changelist" comment="" />
+    <list default="true" id="a10ab170-c805-44ec-8f86-f4601ebb9cdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/fetch_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/fetch_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="118" column="73" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+            <state relative-caret-position="493">
+              <caret line="125" column="59" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -22,34 +27,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/fetch_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="122" column="194" selection-start-line="122" selection-start-column="194" selection-end-line="122" selection-end-column="194" />
+            <state relative-caret-position="408">
+              <caret line="64" column="25" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="25" />
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/import.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layout/content.php">
+        <entry file="file://$PROJECT_DIR$/include/import_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            <state relative-caret-position="1105">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/include/connect.php" />
         <option value="$PROJECT_DIR$/pages/home.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/layout/footer.php" />
         <option value="$PROJECT_DIR$/layout/header.php" />
-        <option value="$PROJECT_DIR$/layout/content.php" />
+        <option value="$PROJECT_DIR$/include/connect.php" />
         <option value="$PROJECT_DIR$/include/fetch_data.php" />
         <option value="$PROJECT_DIR$/pages/search.php" />
+        <option value="$PROJECT_DIR$/layout/content.php" />
+        <option value="$PROJECT_DIR$/include/import_data.php" />
+        <option value="$PROJECT_DIR$/pages/import.php" />
       </list>
     </option>
   </component>
@@ -69,32 +98,22 @@
         <subPane>
           <expand>
             <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="wwiis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwiis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="wwiis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwiis" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="wwiis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwiis" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="challenge2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="challenge2" type="462c0819:PsiDirectoryNode" />
+              <item name="wwiis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwiis" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -133,17 +152,18 @@
       <updated>1565905175698</updated>
       <workItem from="1565905188656" duration="2031000" />
       <workItem from="1565908156412" duration="23321000" />
+      <workItem from="1566053025360" duration="13365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25352000" />
+    <option name="totallyTimeSpent" value="38717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,16 +188,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/upload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/upload.php" />
     <entry file="file://$PROJECT_DIR$/layout/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -185,29 +196,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/fetch_friend_request.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/load_data.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/fetch_messages.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="135" column="63" lean-forward="true" selection-start-line="135" selection-start-column="63" selection-end-line="135" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fetch_friend_request.php" />
+    <entry file="file://$PROJECT_DIR$/include/load_data.php" />
+    <entry file="file://$PROJECT_DIR$/include/fetch_messages.php" />
+    <entry file="file://$PROJECT_DIR$/include/functions.php" />
+    <entry file="file://$PROJECT_DIR$/pages/home.php" />
     <entry file="file://$PROJECT_DIR$/layout/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -224,22 +217,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/fetch_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="194" selection-start-line="122" selection-start-column="194" selection-end-line="122" selection-end-column="194" />
+        <state relative-caret-position="153">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="73" selection-start-line="118" selection-start-column="73" selection-end-line="118" selection-end-column="73" />
+        <state relative-caret-position="493">
+          <caret line="125" column="59" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fetch_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="25" />
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/import_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
         </state>
       </provider>
     </entry>

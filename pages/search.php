@@ -44,11 +44,16 @@
             <thead class="thead-dark">
             <tr>
                 <th scope="col">Quote Number</th>
+                <th scope="col">Quote Date</th>
+                <th scope="col">Travel Class</th>
+                <th scope="col">Cover Area</th>
+                <th scope="col">Start Date</th>
+                <th scope="col">End Date</th>
+                <th scope="col">Traveller Id</th>
                 <th scope="col">Conditions</th>
             </tr>
             </thead>
             <tbody id="results">
-
 
             </tbody>
         </table>
@@ -141,10 +146,28 @@
                         $('.pagination').append(result.links);
                         result.records.map(function (record) {
 
+                            // parsing xml for conditions
+                            var parser = new DOMParser();
+                            var xmlRecord = parser.parseFromString(record[6],"text/xml");
+                            var conditions = xmlRecord.getElementsByTagName("conditions")[0].getElementsByTagName("Condition");
+
+                            // creating template for each row
                             var template = '<tr>'+
                                    '<td>' + record[0] + '</td>'+
                                    '<td>' + record[1] + '</td>'+
-                                 '</tr>';
+                                   '<td>' + record[2] + '</td>'+
+                                   '<td>' + record[3] + '</td>'+
+                                   '<td>' + record[4] + '</td>'+
+                                   '<td>' + record[5] + '</td>'+
+                                   '<td>' + record[7] + '</td>'+
+                                   '<td>';
+
+                            for (var i = 0; i < conditions.length; i++) {
+                                template += conditions[i].getElementsByTagName("name")[0].firstChild.nodeValue + "<br>";
+                            }
+                            template += '</td>'+
+                                '</tr>';
+
                             $('#results').append(template);
                         });
                     }

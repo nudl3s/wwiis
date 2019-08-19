@@ -47,7 +47,13 @@ if($_POST) {
     // Creating sql query with JOIN for xml medical condition
     $sql = 'SELECT '
         . 'a.quote_number, '
-        . 'm.medical_xml as "condition" ';
+        . 'a.quote_date, '
+        . 'a.travel_class, '
+        . 'a.cover_area, '
+        . 'a.start_date, '
+        . 'a.end_date, '
+        . 'm.medical_xml as "condition", '
+        . 'm.traveller_id';
 
     $sql .= ' FROM wwiis_technical_challenge_quotes a '
         . ' INNER JOIN wwiis_technical_challenge_medical m ON m.quote_number = a.quote_number';
@@ -61,10 +67,7 @@ if($_POST) {
     // if any data
     if ($resultSearch->num_rows > 0) {
         $records = $resultSearch->fetch_all();
-        foreach ($records as $key=>$value) {
-            $records[$key][1]=simplexml_load_string($records[$key][1]);
-            $records[$key][2] = $key;
-        }
+
         $result['page'] = $page;
         $result['totalPages'] = $number_of_pages;
         $result['records'] = $records;
