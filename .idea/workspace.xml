@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a10ab170-c805-44ec-8f86-f4601ebb9cdf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/fetch_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/fetch_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/layout/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/import.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="2380">
               <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
             </state>
           </provider>
@@ -152,15 +149,15 @@
       <updated>1565905175698</updated>
       <workItem from="1565905188656" duration="2031000" />
       <workItem from="1565908156412" duration="23321000" />
-      <workItem from="1566053025360" duration="13365000" />
+      <workItem from="1566053025360" duration="13967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38717000" />
+    <option name="totallyTimeSpent" value="39319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
@@ -253,7 +250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/import.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="2380">
           <caret line="140" column="16" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
         </state>
       </provider>
